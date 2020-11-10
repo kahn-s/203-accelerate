@@ -76,6 +76,7 @@ Text Domain:  accelerate-theme-child
   vertical-align: middle;
   line-height: 35px;
   color: white;
+  filter: brightness(100);
 }
 /*  Case Studies*/
 
@@ -83,6 +84,7 @@ Text Domain:  accelerate-theme-child
   width: 300px;
   float: left;
 }
+
 .case-study-sidebar h2 {
   font-weight: 400;
   font-size: 1.5em;
@@ -97,7 +99,7 @@ Text Domain:  accelerate-theme-child
 .case-study-sidebar h6 {
   font-weight: 500;
 }
-.case-study-sidebar a {
+.case-study-sidebar p a {
   text-transform: uppercase;
   color: #45ac9d;
   font-weight: 600;
