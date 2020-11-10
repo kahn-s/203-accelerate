@@ -81,32 +81,76 @@ Text Domain:  accelerate-theme-child
 /*  Case Studies*/
 
 .case-study-sidebar {
-  width: 300px;
+  width: 35%;
   float: left;
 }
 
 .case-study-sidebar h2 {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 1.5em;
 }
 
 .case-study-sidebar h5 {
-  font-size: 0.75em;
+  font-size: 0.875em;
   font-weight: 400;
   margin-top: 0;
+  text-transform: capitalize;
   color: gray;
 }
 .case-study-sidebar h6 {
   font-weight: 500;
+  font-size: 0.9em;
+}
+.case-study-sidebar p {
+  font-size: 1.1em;
 }
 .case-study-sidebar p a {
   text-transform: uppercase;
   color: #45ac9d;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 0.875em;
 }
 .case-study-images {
   float: left;
   width: 600px;
   padding-left: 80px;
+}
+#contact-form {
+  width: 80%;
+  padding-left: 15%;
+}
+#contact-form h2 {
+  font-size: 1.66em;
+  margin-top: 0;
+}
+#contact-form p {
+  color: gray;
+}
+.nf-form-fields-required {
+  display: none;
+}
+
+#nf-field-1-container {
+  width: 45%;
+  display: inline-block;
+}
+#nf-field-2-container {
+  width: 48%;
+  float: right;
+}
+.ninja-forms-req-symbol {
+  display: none;
+}
+.nf-form-content-label {
+  font-weight: 400;
+}
+#nf-label-field-1,
+#nf-label-field-2,
+#nf-label-field-3 {
+  font-weight: 400;
+}
+#nf-field-4 {
+  background-color: #45ac9d;
+  width: 200px;
+  float: right;
 }
