@@ -115,6 +115,8 @@ Text Domain:  accelerate-theme-child
   width: 600px;
   padding-left: 80px;
 }
+/*  Contact*/
+
 #contact-form {
   width: 80%;
   padding-left: 15%;
@@ -153,4 +155,63 @@ Text Domain:  accelerate-theme-child
   background-color: #45ac9d;
   width: 200px;
   float: right;
+}
+/*  About Services */
+
+#hero p {
+  text-align: center;
+  color: white;
+  width: 45%;
+  font-size: 1.56em;
+}
+.about-services h2 {
+  font-size: 1em;
+  text-align: center;
+  text-transform: uppercase;
+}
+.about-services p {
+  text-align: center;
+  width: 55%;
+}
+
+.service h2 {
+  text-transform: capitalize;
+  text-align: left;
+  font-family: "open sans", sans-serif;
+  font-size: 1.56em;
+  font-weight: 500;
+}
+#content-wrapper {
+  display: inline-block;
+  justify-content: center;
+  align-items: baseline;
+  width: 100%;
+}
+.service-left {
+  width: 70%;
+  text-align: justify;
+  padding-top: 5%;
+  padding-right: 7%;
+  float: left;
+}
+.service-right {
+  width: 70%;
+  text-align: justify;
+  padding-top: 5%;
+  padding-left: 7%;
+  float: right;
+}
+.icon {
+  text-align: center;
+  padding: 7%;
+}
+
+.page-id-47374 #navigation.container {
+  padding-top: 30px;
+}
+.page-id-47374 #navigation.container p {
+  font-size: 1.5em;
+  font-weight: 700;
+  display: inline-block;
+  padding: 50px 50px 50px 0;
 }
