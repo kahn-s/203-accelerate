@@ -41,8 +41,44 @@ get_header(); ?>
             <?php endwhile; ?>
             <?php wp_reset_query(); ?>
             </ul>
+    
     </div>
 </section>
+
+<section class="homepage-services">
+     <div class="site-content">
+            <h4>Our Services</h4>
+            <ul class= "homepage-services">
+                <?php while ( have_posts() ) : the_post(); 
+                    $our_service_1 = get_field('service_1');
+                    $our_service_2 = get_field('service_2');
+                    $our_service_3 = get_field('service_3');
+                    $our_service_4 = get_field('service_4');
+				    $service_icon_1 = get_field('service_icon_1');
+                    $service_icon_2 = get_field('service_icon_2');
+                    $service_icon_3 = get_field('service_icon_3');
+                    $service_icon_4 = get_field('service_icon_4');?>
+                      
+                        <div class="service-labeled-icon">
+                            <?php echo wp_get_attachment_image($service_icon_1, $size);?>
+                            <h2><?php echo $our_service_1; ?></h2>
+                        </div>
+                        <div class="service-labeled-icon"> 
+                            <?php echo wp_get_attachment_image($service_icon_2, $size);?>
+                            <h2><?php echo $our_service_2; ?></h2>
+                        </div>
+                        <div class="service-labeled-icon">
+                            <?php echo wp_get_attachment_image($service_icon_3, $size);?>
+                            <h2><?php echo $our_service_3; ?></h2>  
+                        </div>
+                        <div class="service-labeled-icon">
+                            <?php echo wp_get_attachment_image($service_icon_4, $size);?>
+                            <h2><?php echo $our_service_4; ?></h2>
+                        </div>
+            </ul>     
+        </div><!-- .site-content -->
+        <?php endwhile; // end of the loop. ?>     
+</section><!-- .homepage-services -->
 <section class="recent-posts">
  <div class="site-content">
     <div class="blog-post">
@@ -57,4 +93,9 @@ get_header(); ?>
     </div>
  </div>
 </section>
+    <?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+        <div id="secondary" class="widget-area" role="complementary">
+	        <?php dynamic_sidebar( 'sidebar-2' ); ?>
+        </div>
+    <?php endif; ?>
 <?php get_footer(); ?>

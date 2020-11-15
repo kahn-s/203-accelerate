@@ -24,6 +24,10 @@ Text Domain:  accelerate-theme-child
   width: 50%;
   float: left;
   margin-bottom: 2em;
+  padding-right: 75px;
+}
+.blog-post h2 {
+  font-size: 1.5em;
 }
 .blog-post h4 {
   font: 700 1em/1.75 "Montserrat", "Open Sans", Arial, sans-serif;
@@ -34,11 +38,18 @@ Text Domain:  accelerate-theme-child
 .blog-post h3 {
   font-size: 1.5em;
 }
+
 .read-more-link {
   font-family: "Montserrat";
   font-weight: 700;
   color: #45ac9d;
   text-transform: uppercase;
+}
+#main .sfsi_widget.sfsi_shortcode_container {
+  text-align: right;
+}
+.featured-work ul {
+  list-style-type: none;
 }
 .featured-work h4 {
   text-align: center;
@@ -61,6 +72,57 @@ Text Domain:  accelerate-theme-child
 }
 .individual-featured-work li {
   list-style-type: none;
+}
+.homepage-services h4 {
+  text-align: center;
+  text-transform: uppercase;
+}
+.homepage-services h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+}
+.homepage-services ul {
+  display: flex;
+  justify-content: space-between;
+}
+.ctf-tweets {
+  width: 60%;
+}
+.ctf-header-img,
+.ctf-header-name {
+  display: none;
+}
+#ctf .ctf-header-text p span.ctf-header-follow {
+  display: none;
+}
+#custom-twitter-feeds-widget-2 h3 {
+  font: 700 1em/1.75 "Montserrat", "Open Sans", Arial, sans-serif;
+  color: #a6a6a6;
+  text-transform: uppercase;
+  margin: 2em 0 0.5em;
+  padding-top: 20px;
+}
+#ctf-more span {
+  font: 700 1em/1.75 "Montserrat", "Open Sans", Arial, sans-serif;
+  text-transform: uppercase;
+}
+#ctf #ctf-more {
+  text-align: left;
+}
+#mc4wp_form_widget-2 {
+  margin-left: 15%;
+  width: 50%;
+}
+#mc4wp_form_widget-2 h3 {
+  font: 700 1em/1.75 "Montserrat", "Open Sans", Arial, sans-serif;
+  color: #a6a6a6;
+  text-transform: uppercase;
+  margin: 2em 0 0.5em;
+  padding: 25px 0;
+}
+#mc4wp-form-1 > div.mc4wp-form-fields > p:nth-child(4) > input[type="submit"] {
+  background-color: #45ac9d;
 }
 .social-media-menu {
   list-style-type: none;
@@ -197,6 +259,7 @@ Text Domain:  accelerate-theme-child
 .service-right {
   width: 70%;
   text-align: justify;
+
   padding-top: 5%;
   padding-left: 7%;
   float: right;
@@ -214,4 +277,38 @@ Text Domain:  accelerate-theme-child
   font-weight: 700;
   display: inline-block;
   padding: 50px 50px 50px 0;
+}
+/*  404 page */
+#content-404 {
+  background: url("img/rex-way-QUHipae6BPU-unsplash-cropped.jpg") no-repeat
+    scroll right center / cover rgba(0, 0, 0, 0);
+  text-align: center;
+  width: 100%;
+  height: auto;
+  min-height: 900px;
+}
+#content-404 h2 {
+  font-family: ubuntu, sans-serif;
+  font-size: 2em;
+  text-align: left;
+  width: 40%;
+  padding-top: 30%;
+  padding-left: 20px;
+}
+#content-404 p {
+  font-family: ubuntu, sans-serif;
+  font-size: 1.5em;
+  text-align: left;
+  margin-left: 25px;
+  padding-left: 20px;
+  width: 30%;
+}
+#content-404 span {
+  font-family: ubuntu, sans-serif;
+  color: #45ac9d;
+  font-weight: 700;
+}
+#credit p {
+  font-size: 0.75em;
+  text-align: right;
 }
