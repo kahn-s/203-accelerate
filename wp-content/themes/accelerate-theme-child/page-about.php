@@ -44,28 +44,28 @@ get_header(); ?>
                             <h2><?php echo $our_service_1; ?></h2>
                             <?php echo $description_1; ?>
                         </div>      
-                        <div class="icon">
+                        <div class="icon-left">
                             <?php echo wp_get_attachment_image($service_icon_1, $size);?>
                         </div>
                         <div class="service-left">
                             <h2><?php echo $our_service_2; ?></h2>
                             <?php echo $description_2; ?>
                         </div>
-                        <div class="icon">
+                        <div class="icon-right">
                             <?php echo wp_get_attachment_image($service_icon_2, $size);?>
                         </div>
                         <div class="service-right">
                             <h2><?php echo $our_service_3; ?></h2>
                             <?php echo $description_3; ?>
                         </div>
-                        <div class="icon">   
-                            <?php echo wp_get_attachment_image($service_icon_3, $size);?><h2><?php echo $our_service_1; ?></h2>
+                        <div class="icon-left">   
+                            <?php echo wp_get_attachment_image($service_icon_3, $size);?>
                         </div>
                         <div class="service-left">
                             <h2><?php echo $our_service_4; ?></h2>
                             <?php echo $description_4; ?>
                         </div>
-                        <div class="icon">
+                        <div class="icon-right">
                             <?php echo wp_get_attachment_image($service_icon_4, $size);?>
                         </div>
                 </section>

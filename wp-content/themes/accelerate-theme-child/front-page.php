@@ -47,7 +47,7 @@ get_header(); ?>
 
 <section class="homepage-services">
      <div class="site-content">
-            <h4>Our Services</h4>
+            <h4><a href="<?php the_permalink(47374);?>">Our Services</a></h4>
             <ul class= "homepage-services">
                 <?php while ( have_posts() ) : the_post(); 
                     $our_service_1 = get_field('service_1');

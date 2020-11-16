@@ -13,6 +13,7 @@ Text Domain:  accelerate-theme-child
   background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover
     rgba(0, 0, 0, 0);
   text-align: center;
+  margin: 0 0 2em;
 }
 #masthead {
   background: none repeat scroll 0 0 #45ac9d;
@@ -20,6 +21,7 @@ Text Domain:  accelerate-theme-child
 .button {
   background: none repeat scroll 0 0 #45ac9d;
 }
+
 .blog-post {
   width: 50%;
   float: left;
@@ -54,6 +56,7 @@ Text Domain:  accelerate-theme-child
 .featured-work h4 {
   text-align: center;
   text-transform: uppercase;
+  margin-top: 0;
 }
 .featured-work h3 {
   text-align: center;
@@ -76,19 +79,22 @@ Text Domain:  accelerate-theme-child
 .homepage-services h4 {
   text-align: center;
   text-transform: uppercase;
+  padding-top: 65px;
 }
 .homepage-services h2 {
   font-family: "Open Sans", sans-serif;
   font-size: 1em;
   font-weight: 400;
+  text-align: center;
 }
 .homepage-services ul {
   display: flex;
   justify-content: space-between;
+  padding-top: 30px;
+  margin-bottom: 90px;
 }
-.ctf-tweets {
-  width: 60%;
-}
+/*Custom Twitter Feeds*/
+
 .ctf-header-img,
 .ctf-header-name {
   display: none;
@@ -103,6 +109,9 @@ Text Domain:  accelerate-theme-child
   margin: 2em 0 0.5em;
   padding-top: 20px;
 }
+.ctf-tweet-content {
+  padding-top: 30px;
+}
 #ctf-more span {
   font: 700 1em/1.75 "Montserrat", "Open Sans", Arial, sans-serif;
   text-transform: uppercase;
@@ -110,9 +119,14 @@ Text Domain:  accelerate-theme-child
 #ctf #ctf-more {
   text-align: left;
 }
+/* Mailchimp Newsletter Form */
+
 #mc4wp_form_widget-2 {
-  margin-left: 15%;
+  margin-left: 50%;
   width: 50%;
+}
+#mc_embed_signup {
+  padding-left: 50%;
 }
 #mc4wp_form_widget-2 h3 {
   font: 700 1em/1.75 "Montserrat", "Open Sans", Arial, sans-serif;
@@ -124,6 +138,7 @@ Text Domain:  accelerate-theme-child
 #mc4wp-form-1 > div.mc4wp-form-fields > p:nth-child(4) > input[type="submit"] {
   background-color: #45ac9d;
 }
+/* social media menu*/
 .social-media-menu {
   list-style-type: none;
   display: flex;
@@ -141,7 +156,12 @@ Text Domain:  accelerate-theme-child
   filter: brightness(100);
 }
 /*  Case Studies*/
-
+.case-study {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: stretch;
+}
 .case-study-sidebar {
   width: 35%;
   float: left;
@@ -173,10 +193,10 @@ Text Domain:  accelerate-theme-child
   font-size: 0.875em;
 }
 .case-study-images {
-  float: left;
-  width: 600px;
-  padding-left: 80px;
+  width: 500px;
+  padding: 50px 0 50px 100px;
 }
+
 /*  Contact*/
 
 #contact-form {
@@ -264,11 +284,14 @@ Text Domain:  accelerate-theme-child
   padding-left: 7%;
   float: right;
 }
-.icon {
+.icon-left {
   text-align: center;
-  padding: 7%;
+  padding: 7% 7% 7% 0;
 }
-
+.icon-right {
+  text-align: center;
+  padding: 7% 0 7% 7%;
+}
 .page-id-47374 #navigation.container {
   padding-top: 30px;
 }

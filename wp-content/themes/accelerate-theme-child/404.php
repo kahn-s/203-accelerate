@@ -18,7 +18,7 @@ get_header(); ?>
             <div id="content-404">
 			
                 <h2>Not what you expected to find?</h2>
-                <p>We're sorry! That page doesn't exist or can't be found.  But no worries! You can browse our <a href ="<?php echo site_url('/blog/') ?>"><span>blog</span></a> or check out our featured <a href="<?php echo site_url('/work/') ?>"><span>work</span>.</a></p>
+                <p>We're sorry! That page doesn't exist or can't be found.  But no worries! You can browse our <a href ="<?php echo site_url('/blog/') ?>"><span>blog</span></a> or check out our featured <a href="<?php echo site_url('/case-studies/') ?>"><span>work</span>.</a></p>
             </div><!-- #content-404      -->
             <div id="credit">
                 <p> photo by rex-way@unsplash.com</p>
