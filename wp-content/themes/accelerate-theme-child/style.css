@@ -42,10 +42,10 @@ Text Domain:  accelerate-theme-child
 }
 
 .read-more-link {
-  font-family: "Montserrat";
-  font-weight: 700;
-  color: #45ac9d;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
   text-transform: uppercase;
+  color: #45ac9d;
 }
 #main .sfsi_widget.sfsi_shortcode_container {
   text-align: right;
@@ -195,6 +195,9 @@ Text Domain:  accelerate-theme-child
 .case-study-images {
   width: 500px;
   padding: 50px 0 50px 100px;
+}
+.post-type-archive-case_studies div.read-more-link {
+  display: none;
 }
 
 /*  Contact*/

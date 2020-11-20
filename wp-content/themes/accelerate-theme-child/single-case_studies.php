@@ -29,7 +29,6 @@ get_header(); ?>
 					<h5><?php echo $services; ?></h5>
 					<h6> Client: <?php echo $client; ?></h6>
 					<?php the_content(); ?>
-
 					<p><a href="<?php echo $link; ?>" >Visit Live Site></a></p>
 				</aside>
 
